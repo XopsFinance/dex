@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  #__next {
+    @apply text-white bg-dark min-h-screen;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+body {
+  font-family: 'Inter';
+}
+
+h2 {
+  @apply text-3xl font-extrabold;
+}
+
+footer {
+  @apply border-t border-grey md:flex justify-between mx-auto w-full max-w-5xl py-6 mt-9;
+}

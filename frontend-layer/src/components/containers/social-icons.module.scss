@@ -1,0 +1,14 @@
+.social-icons {
+  @apply flex gap-4 md:gap-[30px] text-white;
+  a {
+    @apply w-[34px] h-[34px] text-2xl flex items-center justify-center hover:brightness-110;
+    background: url('/assets/icons/icon-bg.svg') center center no-repeat;
+  }
+}
+
+.social-icons-icon-only {
+  @apply flex gap-3 text-white;
+  a {
+    @apply w-[34px] h-[34px] text-2xl flex items-center justify-center hover:brightness-110;
+  }
+}

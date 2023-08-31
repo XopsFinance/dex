@@ -1,0 +1,9 @@
+.footer-links {
+  @apply md:flex text-default gap-20 leading-7 md:leading-6 md:text-xs text-center md:text-right;
+  h3 {
+    @apply text-white font-bold text-xl md:text-sm pb-4 mt-8 md:mt-0;
+  }
+  a {
+    @apply hover:text-white;
+  }
+}

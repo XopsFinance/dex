@@ -1,0 +1,54 @@
+{
+  "name": "Xoswap",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "18.15.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@metamask/sdk": "^0.1.0",
+    "@types/lodash": "^4.14.192",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.31",
+    "@types/react-dom": "18.0.11",
+    "@uniswap/sdk-core": "^3.2.6",
+    "@uniswap/v2-sdk": "^3.0.1",
+    "@uniswap/v3-core": "^1.0.1",
+    "@web3-react/core": "^8.2.0",
+    "@web3-react/metamask": "^8.2.1",
+    "@web3-react/network": "^8.2.0",
+    "@web3-react/types": "^8.2.0",
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.2",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "next": "13.2.4",
+    "postcss": "^8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-query": "^3.39.3",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.0.2",
+    "web3": "^1.9.0",
+    "zustand": "^4.3.7"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "sass": "^1.60.0"
+  }
+}

@@ -1,0 +1,7 @@
+.button {
+  @apply bg-navy px-2 py-0.5 rounded-sm text-2xs capitalize;
+  &:hover,
+  &.active {
+    @apply bg-gradient;
+  }
+}

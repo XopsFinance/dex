@@ -1,0 +1,24 @@
+.pool-table {
+  @apply px-4 py-3 md:px-9 md:py-6 rounded-xl bg-dark-blue mt-4 overflow-auto;
+  table {
+    @apply w-full;
+    th,
+    td {
+      @apply p-5 font-normal;
+    }
+    th {
+      &:nth-child(1) {
+        @apply text-left;
+      }
+      &:nth-child(2),
+      &:nth-child(4) {
+        @apply text-right;
+      }
+      th {
+        &:nth-child(3) {
+          @apply text-center;
+        }
+      }
+    }
+  }
+}
